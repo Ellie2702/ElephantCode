@@ -1,0 +1,399 @@
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #4a3d3d url(/images/Banner.gif) repeat right bottom;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 100px 0px 100px;
+    width: 100%;
+}
+
+.banner-logo img {
+    margin: 1vw;
+    width: 14vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    background-color:  #2b2424;
+    margin: 0px 100px 0px 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu .menuItem {
+    padding: 10px;
+    height: 30px;
+    align-items: center;
+}
+
+.menu .menuItem a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.last-flex-item {
+    margin-left: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px 0px 100px;;
+    background-color: #edeff3;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.siteDescript {
+    margin: 0px 10px 15px 10px;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: justify;
+    padding: 5px;
+    padding-right: 15px; 
+    word-spacing: 3px;
+}
+
+.siteDescript img {
+    align-self: left;
+    height: 120px;
+    margin: 3px 6px 3px 0px;
+}
+
+.disciplines {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 6px 0px 0px;
+    padding-bottom: 15px;
+}
+
+.disciplineCard {
+    display: flex;
+    justify-content: center;
+    height: 14vh;
+    width: 19vw;
+    background-color:  #3a3030;
+    font-size: 20px;
+    color: white;
+    white-space: normal;
+    margin: 5px;
+    padding: 5px;
+}
+
+.disciplineCard a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    text-align: left;
+    font-size: 26px;
+    margin: 25px 0px 15px 10px;
+}
+
+footer {
+    margin: 0px 100px 0px 100px;
+    padding: 15px;
+    background-color: #dee0e4;
+    color: #838383de;
+    border-top: 1px solid #444040c7;
+    text-align: center;
+}
+
+.discipline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teacherCard {
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    width: 72vw;
+    background-color: #f5f5f7;
+    margin: 10px;
+    padding: 15px 15px 30px 15px;
+    align-self: center;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.teacherCard img {
+    height: 16vw;
+    margin: 5px 15px 5px 5px;
+}
+
+.teacherDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.teacherName {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.teacherInfo {
+    font-size: 20px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.notFoundResult {
+    font-size: 20px;
+    
+}
+
+.div-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form.formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    height: 25vh;
+    width: 25vw;
+    background-color:  #ffffffe8;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 10px;
+    border: 1px solid  #3636368e;
+    margin: 10px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-content: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fields label {
+    font-size: 18px;
+    margin: 3px;
+}
+
+button {
+    font-size: 15px;
+    border: 1px solid  #3636368e;
+    box-shadow: 4px 4px 8px 0px rgba(29, 35, 39, 0.24);
+    padding: 5px;
+    margin: 5px;
+}
+
+.profileConteiner {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+}
+
+.functionList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-left: 5px;
+}
+
+.functionList a{
+    text-decoration: none;
+    color: white;
+    background-color: #3a3030;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    -webkit-box-shadow: 4px 4px 3px -1px rgba(34, 60, 80, 0.37);
+    -moz-box-shadow: 4px 4px 3px -1px rgba(34, 60, 80, 0.37);
+    box-shadow: 4px 4px 3px -1px rgba(34, 60, 80, 0.37);
+}
+
+.UserPanel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 100%;
+}
+
+.HiUser {
+    margin: 5px;
+    font-size: 25px;
+}
+
+form.formChange {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    background-color:  #ffffffe8;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 10px;
+    border: 1px solid  #3636368e;
+    margin: 10px;
+}
+
+form.formChange .fields {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-content: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px 20px 0px 20px;
+}
+
+form.addUser {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    background-color:  #ffffffe8;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 10px;
+    border: 1px solid  #3636368e;
+    margin: 10px;
+    align-self: center;
+}
+
+.descriptField {
+    width: 59vh;
+    height: 20vw;
+    justify-self: center;
+    font-size: 17px;
+}
+
+
+.teachers {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.teachCard {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f7;
+    margin: 10px;
+    padding: 15px 15px 30px 15px;
+    align-self: center;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.teachCard img {
+    height: 20vw;
+    margin: 5px 15px 5px 5px;
+    border-radius: 15px;
+}
+
+.teachCardInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.teachName {
+    font-size: 23px;
+    margin: 5px;
+}
+
+.teachDesc {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.teachDisc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.spec {
+    font-size: 16px;
+    background-color:  #3a3030;
+    color: white;
+    white-space: normal;
+    margin: 5px;
+    padding: 5px;
+}
+
+.answers {
+    display: flex;
+    width: 30vw;
+}
+
+.checkBoxs {
+    width: 5vh;
+}
+
+.groupCard {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 80vw;
+    background-color: #f5f5f7;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.groupName {
+    font-size: 22px;
+    margin: 5px;
+}
+
+.groupDesc {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.teachersList {
+    display: flex;
+    flex-direction: row;
+}
+
+.teacher {
+    align-content: center;
+    margin-right: 5px;
+    background-color:  #2b2424;
+    color: white;
+    padding: 2px;
+}
+
+.vacant {
+    margin: 5px;
+}
+
